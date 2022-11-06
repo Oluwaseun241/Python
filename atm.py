@@ -37,7 +37,9 @@ if(pin==password):
     # Case 3
     elif(nMessage == 4):
         transfer = input("Enter amount to transfer\n")
+        details = input("Enter Beneficiary Account Number\n")
         tran = int(total_amount)-int(transfer)
+        print("You transferred",transfer,"to",details)
         print("Net Balance after Transfer is", tran)
     
     else:
