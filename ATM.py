@@ -1,7 +1,9 @@
 # Welcoming message
 print("\n")
-welcome = 'WELCOME TO THE BANK OF THE PEOPLE'
-print(welcome + "\n")
+print("======================================================")
+welcome = '----------WELCOME TO THE BANK OF THE PEOPLE----------'
+print(welcome)
+print("======================================================" + "\n")
 
 # Creating account pin/password
 password = input("Enter your password to login to your account.\n")
