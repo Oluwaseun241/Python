@@ -12,13 +12,15 @@ print("Your PIN is successfully created\n")
 # Initial deposit/funding
 total_amount = input("Enter amount to create account.\n")
 
+
 # Command prompt for more transcation
 nMessage = int(input("Enter 1 for check your balance.\nEnter 2 for deposite.\nEnter 3 for withdrawal.\nEnter 4 for transfer.\n"))
 
 pin = input("Enter your PIN\n")
 
 
-if(pin==password):
+
+if (pin==password):
 
     # Case 1
     if(nMessage == 1):
@@ -46,7 +48,6 @@ if(pin==password):
     
     else:
         print("Enter a valid user input")
-        
     
 else:
     print("Your password is wrong repeat the process again")
